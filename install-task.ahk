@@ -19,7 +19,7 @@ if !FileExist(TARGET_SCRIPT) {
 
 cmd := 'schtasks /Create'
     . ' /TN "' TASK_NAME '"'
-    . ' /TR "\"' A_AhkPath '\" \"' TARGET_SCRIPT '\""'
+    . ' /TR "\"' TARGET_SCRIPT '\""'
     . ' /SC ONLOGON'
     . ' /RU "' A_UserName '"'
     . ' /RL HIGHEST'
