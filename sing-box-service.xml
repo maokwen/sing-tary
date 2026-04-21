@@ -1,0 +1,9 @@
+<service>
+  <id>sing-box</id>
+  <name>sing-box</name>
+  <description>sing-box background service</description>
+  <executable>C:\Users\maokw\AppData\Local\Microsoft\WinGet\Links\sing-box.exe</executable>
+  <arguments>run --disable-color -c %BASE%\config.json</arguments>
+  <log mode="reset" />
+  <startmode>manual</startmode>
+</service>
